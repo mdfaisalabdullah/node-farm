@@ -73,7 +73,6 @@ const server = http.createServer((req, res) => {
     });
     res.end("<h3>Hello, nothing is found.</h3>");
   }
-  console.log(pathName);
 });
 
 server.listen(8000, "127.0.0.1", () => {
